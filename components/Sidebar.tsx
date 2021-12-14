@@ -79,7 +79,7 @@ const Sidebar = ({
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute right-5 mt-1 z-50 origin-top-right bg-[#232323] divide-y divide-gray-600 rounded-md shadow-lg w-10/12 ring-1 ring-black ring-opacity-5 focus:outline-none">
+            <Menu.Items className="absolute right-5 mt-1 z-50 origin-top-right bg-[#232323] divide-y divide-gray-600 rounded-md shadow-lg w-10/12  ring-1 ring-black ring-opacity-5 focus:outline-none">
               {!isLoading &&
                 !error &&
                 data &&
@@ -213,7 +213,7 @@ const Sidebar = ({
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute right-5 mt-1 z-50 origin-top-right bg-[#232323] divide-y divide-gray-100 rounded-md shadow-lg w-10/12 ring-1 ring-black ring-opacity-5 focus:outline-none">
+            <Menu.Items className="absolute right-5 mt-1 z-50 origin-top-right bg-[#232323] divide-y divide-gray-100 rounded-md shadow-lg w-10/12 h-96 overflow-y-scroll __hide-scrollbar ring-1 ring-black ring-opacity-5 focus:outline-none">
               {!isLoading &&
                 !error &&
                 data &&

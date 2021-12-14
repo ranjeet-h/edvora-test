@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   const [city, setCity] = useState<string>('');
   console.log(product, state, city);
   return (
-    <div className="bg-[#292929] h-screen w-screen  ">
+    <div className="">
       <Head>
         <title>Edvora Test</title>
         <meta
