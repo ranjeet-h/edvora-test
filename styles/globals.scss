@@ -55,4 +55,15 @@
 
 html {
   background-color: #292929;
+  @include scrollbars(5px, rgb(153, 152, 152), rgb(12, 12, 12));
 }
+
+// .slick-slide {
+//   width: 100%;
+//   @apply h-10;
+// }
+
+// .slick-list {
+//   width: 210px;
+//   height: 100px;
+// }
